@@ -27,3 +27,16 @@ This project emphasizes correctness, simplicity, and direct interaction with the
 ├── Makefile   
 └── README.md   
 ```
+
+
+## How to Run
+
+To build the server:
+
+    make
+
+To run the server:
+
+    ./http-server
+
+The server will start listening on the specified port and can handle basic HTTP GET requests.
