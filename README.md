@@ -1,24 +1,29 @@
 # HTTP Server in C
 
-This project is a simple HTTP server implemented in C as part of an advanced programming / systems course.
+A lightweight HTTP server implemented in C as part of an advanced systems / programming course.
 
-The server listens on a TCP socket, accepts incoming client connections, parses HTTP requests, and returns basic HTTP responses. The goal of the project was to gain hands-on experience with low-level networking, sockets, and concurrency fundamentals.
+This project focuses on low-level networking concepts, including TCP socket programming, manual HTTP request parsing, and building server-side functionality without the use of external frameworks or libraries.
+
+## Overview
+
+The server listens on a TCP socket, accepts incoming client connections, parses basic HTTP requests, and returns valid HTTP responses. The goal of the project was to gain hands-on experience with systems-level programming and understand how higher-level web servers work under the hood.
+
+This project emphasizes correctness, simplicity, and direct interaction with the operating system through standard C and POSIX APIs.
 
 ## Features
+
 - TCP socket programming
-- Handles basic HTTP GET requests
-- Manual request parsing
-- Lightweight and dependency-free
-- Built using standard C and POSIX APIs
+- Accepts and handles client connections
+- Parses basic HTTP GET requests
+- Sends valid HTTP responses
+- Minimal, dependency-free implementation
+- Written entirely in standard C
 
-## Build Instructions
+## Project Structure
 
-Make sure you have `gcc` installed.
-
-```bash
-make
-
-## Context
-
-This project was completed as the final lab in an Advanced Programming / Systems course.
-It focuses on understanding low-level networking concepts by implementing a minimal HTTP server from scratch in C.
+```
+.
+├── http-server.c   
+├── Makefile   
+└── README.md   
+```
