@@ -17,3 +17,8 @@ Make sure you have `gcc` installed.
 
 ```bash
 make
+
+## Context
+
+This project was completed as the final lab in an Advanced Programming / Systems course.
+It focuses on understanding low-level networking concepts by implementing a minimal HTTP server from scratch in C.
